@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Created by lukasz on 22/11/2017.
  */
 public class Shape {
-    public ArrayList<Point> points;
+    public ArrayList<Point> points = new ArrayList<>();
 
     public void drawYourself(Graphics2D g2d){
         int[] xs = new int[points.size()];
